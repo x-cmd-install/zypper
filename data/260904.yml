@@ -1,0 +1,63 @@
+about:
+  description: World's most powerful command line package manager
+  license: NOASSERTION
+  homepage: http://en.opensuse.org/Portal:Zypper
+  head: 56f23a5
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-04T05:05:08Z
+timeline:
+  created: 2011-07-29
+  lastCommit: 2026-09-02
+  lastRelease: ?
+popularity:
+  star: 492
+  watcher: 28
+  fork: 135
+  release: 0
+  contributor: 194
+  pullRequest: 80
+  issue: 323
+language:
+  C++: 1309147
+  CMake: 24034
+  Shell: 20544
+  C: 7972
+  Perl: 3790
+  Augeas: 2777
+  Python: 1239
+  Raku: 440
+totalLine: 1369943
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 1
+    openPR: 0
+    closedIssue: 0
+    openIssue: 2
+    commit: 17
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 2
+    openPR: 1
+    closedIssue: 0
+    openIssue: 4
+    commit: 45
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 5
+    openPR: 3
+    closedIssue: 3
+    openIssue: 5
+    commit: 78
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 8
+    openPR: 4
+    closedIssue: 7
+    openIssue: 6
+    commit: 120
