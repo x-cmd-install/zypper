@@ -14,12 +14,12 @@ x install zypper
 
 ## Code insight
 
-Total: **29,255** lines of code across **231** files in the top 5 languages.
+Total: **29,269** lines of code across **231** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 21,517 | 3,384 | 3,763 | 97 |
-| CHeader | 6,291 | 2,349 | 1,817 | 116 |
+| Cpp | 21,530 | 3,385 | 3,766 | 97 |
+| CHeader | 6,292 | 2,350 | 1,818 | 116 |
 | CMake | 708 | 95 | 128 | 12 |
 | Bash | 228 | 17 | 30 | 2 |
 | Sh | 223 | 16 | 27 | 4 |
@@ -32,22 +32,22 @@ Total: **29,255** lines of code across **231** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 493 · **Forks**: 136 · **Open issues**: 323 · **Contributors**: 189
+- **Stars**: 493 · **Forks**: 135 · **Open issues**: 323 · **Contributors**: 189
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 250 · **Open PRs**: 22 · **Closed issues**: 200 · **Open issues**: 123 · **Commits**: 7339
+- **Releases**: 0 · **Merged PRs**: 251 · **Open PRs**: 22 · **Closed issues**: 200 · **Open issues**: 123 · **Commits**: 7342
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 2 | 0 | 0 | 6 |
-| last60d | 2026-08-01 | 0 | 1 | 2 | 0 | 2 | 25 |
-| 90d | 2026-07-02 | 0 | 1 | 2 | 0 | 2 | 26 |
-| last180d | 2026-04-03 | 0 | 4 | 4 | 2 | 5 | 77 |
-| 360d | 2025-10-05 | 0 | 8 | 5 | 7 | 6 | 125 |
-| last720d | 2024-10-10 | 0 | 27 | 9 | 21 | 24 | 360 |
+| 30d | 2026-09-01 | 0 | 1 | 2 | 0 | 0 | 9 |
+| last60d | 2026-08-02 | 0 | 2 | 2 | 0 | 2 | 28 |
+| 90d | 2026-07-03 | 0 | 2 | 2 | 0 | 2 | 29 |
+| last180d | 2026-04-04 | 0 | 5 | 4 | 2 | 5 | 80 |
+| 360d | 2025-10-06 | 0 | 9 | 5 | 7 | 6 | 128 |
+| last720d | 2024-10-11 | 0 | 28 | 9 | 21 | 24 | 363 |
 
 ## Improve this data
 
@@ -58,4 +58,4 @@ Install metadata for zypper lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:45:40Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:03:27Z._
