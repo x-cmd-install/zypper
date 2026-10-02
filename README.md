@@ -32,22 +32,22 @@ Total: **29,269** lines of code across **231** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 493 · **Forks**: 135 · **Open issues**: 323 · **Contributors**: 189
+- **Stars**: 493 · **Forks**: 135 · **Open issues**: 323 · **Contributors**: 188
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 251 · **Open PRs**: 22 · **Closed issues**: 200 · **Open issues**: 123 · **Commits**: 7342
+- **Releases**: 0 · **Merged PRs**: 251 · **Open PRs**: 22 · **Closed issues**: 200 · **Open issues**: 123 · **Commits**: 7344
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 0 | 1 | 2 | 0 | 0 | 9 |
-| last60d | 2026-08-02 | 0 | 2 | 2 | 0 | 2 | 28 |
-| 90d | 2026-07-03 | 0 | 2 | 2 | 0 | 2 | 29 |
-| last180d | 2026-04-04 | 0 | 5 | 4 | 2 | 5 | 80 |
-| 360d | 2025-10-06 | 0 | 9 | 5 | 7 | 6 | 128 |
-| last720d | 2024-10-11 | 0 | 28 | 9 | 21 | 24 | 363 |
+| 30d | 2026-09-02 | 0 | 1 | 2 | 0 | 0 | 11 |
+| last60d | 2026-08-03 | 0 | 2 | 2 | 0 | 2 | 30 |
+| 90d | 2026-07-04 | 0 | 2 | 2 | 0 | 2 | 31 |
+| last180d | 2026-04-05 | 0 | 5 | 4 | 2 | 5 | 82 |
+| 360d | 2025-10-07 | 0 | 9 | 5 | 7 | 6 | 130 |
+| last720d | 2024-10-12 | 0 | 28 | 9 | 21 | 24 | 365 |
 
 ## Improve this data
 
@@ -58,4 +58,4 @@ Install metadata for zypper lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T06:03:27Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T05:46:46Z._
