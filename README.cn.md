@@ -42,27 +42,27 @@ x install zypper
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 1 | 0 | 0 | 0 | 17 |
-| last60d | 2026-08-28 | 0 | 3 | 0 | 0 | 0 | 33 |
-| 90d | 2026-07-29 | 0 | 4 | 0 | 1 | 1 | 49 |
-| last180d | 2026-04-30 | 0 | 6 | 1 | 3 | 3 | 96 |
-| 360d | 2025-11-01 | 0 | 12 | 2 | 7 | 5 | 150 |
-| last720d | 2024-11-06 | 0 | 31 | 6 | 22 | 19 | 382 |
+| 30d | 2026-09-28 | 0 | 1 | 0 | 0 | 0 | 17 |
+| last60d | 2026-08-29 | 0 | 3 | 0 | 0 | 0 | 33 |
+| 90d | 2026-07-30 | 0 | 4 | 0 | 1 | 1 | 49 |
+| last180d | 2026-05-01 | 0 | 6 | 1 | 3 | 3 | 96 |
+| 360d | 2025-11-02 | 0 | 12 | 2 | 7 | 5 | 150 |
+| last720d | 2024-11-07 | 0 | 31 | 6 | 22 | 18 | 382 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/zypper) 上共有 **79** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**40** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/zypper) 上共有 **79** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**49** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.14.101` | ✅ latest |
-| Debian 14 | `1.14.101` | ✅ latest |
+| Debian unstable | `1.14.101` | ⚠️ outdated |
+| Debian 14 | `1.14.101` | ⚠️ outdated |
 | Debian 13 | `1.14.89` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.14.94` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.68` | ⚠️ outdated |
-| Arch | `1.14.101` | ✅ latest |
+| Arch | `1.14.102` | ✅ latest |
 | Fedora rawhide | `1.14.94` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.14.101` | ✅ latest |
+| openSUSE Tumbleweed | `1.14.101` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ zypper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:24:37Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T05:49:52Z._
