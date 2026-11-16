@@ -1,54 +1,5 @@
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.14.89
-  origversion: 1.14.89-1
-  status: outdated
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - bluca@debian.org
-    - sunweaver@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.14.89
-  origversion: 1.14.89-1
-  status: outdated
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - bluca@debian.org
-    - sunweaver@debian.org
-  categories:
-    - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.14.11
-  origversion: 1.14.11-1
-  status: outdated
-  maintainers:
-    - sunweaver@debian.org
-  categories:
-    - admin
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: zypper
   binnames:
     - zypper
@@ -56,12 +7,39 @@
     - zypper-doc
   visiblename: zypper
   version: 1.14.42
-  origversion: 1.14.42-1
+  origversion: 1.14.42-2
   status: outdated
   maintainers:
     - sunweaver@debian.org
   categories:
-    - admin
+    - misc
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-common
+    - zypper-doc
+  visiblename: zypper
+  version: 1.12.4
+  origversion: 1.12.4-1
+  status: outdated
+  maintainers:
+    - sunweaver@debian.org
+  categories:
+    - universe/misc
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: zypper
+  visiblename: zypper
+  version: 1.14.73
+  origversion: 1.14.73-150500.6.2.1
+  status: legacy
+  summary: Command line software manager using libzypp
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Packages
 - repo: arch
   subrepo: extra
   srcname: zypper
@@ -247,24 +225,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-log
-    - zypper-aptitude
-    - zypper-debuginfo
-    - zypper-debugsource
-  visiblename: zypper
-  version: 1.14.68
-  origversion: 1.14.68-1.fc40
-  status: outdated
-  summary: Command line package manager using libzypp
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: zypper
   binnames:
@@ -276,6 +236,24 @@
   visiblename: zypper
   version: 1.14.68
   origversion: 1.14.68-2.fc40
+  status: outdated
+  summary: Command line package manager using libzypp
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-log
+    - zypper-aptitude
+    - zypper-debuginfo
+    - zypper-debugsource
+  visiblename: zypper
+  version: 1.14.68
+  origversion: 1.14.68-1.fc40
   status: outdated
   summary: Command line package manager using libzypp
   licenses:
@@ -314,18 +292,6 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: zypper
-  visiblename: zypper
-  version: 1.14.71
-  origversion: 1.14.71-150600.10.2.7
-  status: legacy
-  summary: Command line software manager using libzypp
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Packages
 - repo: fedora_43
   subrepo: release
   srcname: zypper
@@ -518,18 +484,6 @@
     - GPLv2+ with special permission to link to OpenSSL
   categories:
     - System/Configuration/Packaging
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: zypper
-  visiblename: zypper
-  version: 1.14.76
-  origversion: 1.14.76-150600.10.6.13
-  status: legacy
-  summary: Command line software manager using libzypp
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Packages
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: zypper
@@ -659,18 +613,6 @@
   subrepo: updates/sle
   srcname: zypper
   visiblename: zypper
-  version: 1.14.73
-  origversion: 1.14.73-150500.6.2.1
-  status: legacy
-  summary: Command line software manager using libzypp
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Packages
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: zypper
-  visiblename: zypper
   version: 1.14.76
   origversion: 1.14.76-150500.6.6.15
   status: legacy
@@ -698,6 +640,42 @@
   version: 1.14.78
   origversion: 1.14.78-150500.6.14.1
   status: outdated
+  summary: Command line software manager using libzypp
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Packages
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: zypper
+  visiblename: zypper
+  version: 1.14.71
+  origversion: 1.14.71-150600.8.2
+  status: legacy
+  summary: Command line software manager using libzypp
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Packages
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: zypper
+  visiblename: zypper
+  version: 1.14.71
+  origversion: 1.14.71-150600.10.2.7
+  status: legacy
+  summary: Command line software manager using libzypp
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Packages
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: zypper
+  visiblename: zypper
+  version: 1.14.76
+  origversion: 1.14.76-150600.10.6.13
+  status: legacy
   summary: Command line software manager using libzypp
   licenses:
     - GPL-2.0-or-later
@@ -835,18 +813,6 @@
     - GPL-2.0-or-later
   categories:
     - System/Packages
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: zypper
-  visiblename: zypper
-  version: 1.14.71
-  origversion: 1.14.71-150600.8.2
-  status: legacy
-  summary: Command line software manager using libzypp
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Packages
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: zypper
@@ -892,6 +858,70 @@
     - sunweaver@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-common
+    - zypper-doc
+  visiblename: zypper
+  version: 1.14.89
+  origversion: 1.14.89-1
+  status: outdated
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - bluca@debian.org
+    - sunweaver@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-common
+    - zypper-doc
+  visiblename: zypper
+  version: 1.14.89
+  origversion: 1.14.89-1
+  status: outdated
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - bluca@debian.org
+    - sunweaver@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-common
+    - zypper-doc
+  visiblename: zypper
+  version: 1.14.11
+  origversion: 1.14.11-1
+  status: outdated
+  maintainers:
+    - sunweaver@debian.org
+  categories:
+    - admin
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: zypper
+  binnames:
+    - zypper
+    - zypper-common
+    - zypper-doc
+  visiblename: zypper
+  version: 1.14.42
+  origversion: 1.14.42-1
+  status: outdated
+  maintainers:
+    - sunweaver@debian.org
+  categories:
+    - admin
 - repo: pureos_landing
   subrepo: landing/main
   srcname: zypper
@@ -909,21 +939,6 @@
     - sunweaver@debian.org
   categories:
     - admin
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.14.42
-  origversion: 1.14.42-2
-  status: outdated
-  maintainers:
-    - sunweaver@debian.org
-  categories:
-    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: zypper
@@ -975,21 +990,6 @@
     - GPLv2+ with special permission to link to OpenSSL
   categories:
     - System/Configuration/Packaging
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.12.4
-  origversion: 1.12.4-1
-  status: outdated
-  maintainers:
-    - sunweaver@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_16_04
   subrepo: xenial-updates/universe
   srcname: zypper
@@ -1121,23 +1121,6 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
-  srcname: zypper
-  binnames:
-    - zypper
-    - zypper-common
-    - zypper-doc
-  visiblename: zypper
-  version: 1.14.99
-  origversion: 1.14.99-1
-  status: outdated
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - bluca@debian.org
-    - sunweaver@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
   srcname: zypper
   binnames:
     - zypper
