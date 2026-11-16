@@ -42,16 +42,16 @@ Total: **29,269** lines of code across **232** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 3 | 0 | 0 | 6 |
-| last60d | 2026-09-16 | 0 | 1 | 3 | 0 | 0 | 24 |
-| 90d | 2026-08-17 | 0 | 4 | 3 | 1 | 1 | 44 |
-| last180d | 2026-05-19 | 0 | 6 | 4 | 1 | 3 | 79 |
-| 360d | 2025-11-20 | 0 | 10 | 5 | 6 | 5 | 148 |
-| last720d | 2024-11-25 | 0 | 31 | 8 | 21 | 17 | 380 |
+| 30d | 2026-10-17 | 0 | 0 | 3 | 0 | 0 | 6 |
+| last60d | 2026-09-17 | 0 | 1 | 3 | 0 | 0 | 24 |
+| 90d | 2026-08-18 | 0 | 4 | 3 | 1 | 1 | 44 |
+| last180d | 2026-05-20 | 0 | 6 | 4 | 1 | 3 | 79 |
+| 360d | 2025-11-21 | 0 | 10 | 5 | 6 | 5 | 148 |
+| last720d | 2024-11-26 | 0 | 31 | 8 | 21 | 17 | 380 |
 
 ## Distribution status
 
-Reported by **81** distros on [repology.org](https://repology.org/project/zypper). **6** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+Reported by **80** distros on [repology.org](https://repology.org/project/zypper). **6** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -73,4 +73,4 @@ Install metadata for zypper lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:43:41Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:07:09Z._
