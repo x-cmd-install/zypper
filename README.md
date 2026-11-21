@@ -32,7 +32,7 @@ Total: **29,269** lines of code across **232** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 497 · **Forks**: 140 · **Open issues**: 323 · **Contributors**: 191
+- **Stars**: 496 · **Forks**: 140 · **Open issues**: 323 · **Contributors**: 191
 
 ## Totals (cumulative)
 
@@ -42,16 +42,16 @@ Total: **29,269** lines of code across **232** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 3 | 0 | 0 | 6 |
-| last60d | 2026-09-21 | 0 | 1 | 3 | 0 | 0 | 24 |
-| 90d | 2026-08-22 | 0 | 4 | 3 | 0 | 0 | 44 |
-| last180d | 2026-05-24 | 0 | 6 | 3 | 1 | 3 | 79 |
-| 360d | 2025-11-25 | 0 | 10 | 5 | 6 | 5 | 148 |
-| last720d | 2024-11-30 | 0 | 31 | 8 | 21 | 16 | 380 |
+| 30d | 2026-10-22 | 0 | 0 | 3 | 0 | 0 | 6 |
+| last60d | 2026-09-22 | 0 | 1 | 3 | 0 | 0 | 24 |
+| 90d | 2026-08-23 | 0 | 4 | 3 | 0 | 0 | 44 |
+| last180d | 2026-05-25 | 0 | 6 | 3 | 1 | 3 | 79 |
+| 360d | 2025-11-26 | 0 | 10 | 5 | 6 | 5 | 148 |
+| last720d | 2024-12-01 | 0 | 31 | 8 | 21 | 16 | 380 |
 
 ## Distribution status
 
-Reported by **80** distros on [repology.org](https://repology.org/project/zypper). **6** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
+Reported by **79** distros on [repology.org](https://repology.org/project/zypper). **6** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -73,4 +73,4 @@ Install metadata for zypper lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:36:58Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:35:53Z._
