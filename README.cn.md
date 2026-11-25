@@ -42,27 +42,12 @@ x install zypper
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 4 | 0 | 0 | 2 |
-| last60d | 2026-09-25 | 0 | 1 | 4 | 0 | 0 | 24 |
-| 90d | 2026-08-26 | 0 | 4 | 4 | 0 | 0 | 35 |
-| last180d | 2026-05-28 | 0 | 6 | 4 | 1 | 3 | 78 |
-| 360d | 2025-11-29 | 0 | 10 | 6 | 6 | 5 | 148 |
-| last720d | 2024-12-04 | 0 | 31 | 9 | 21 | 16 | 378 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/zypper) 上共有 **79** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**44** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.14.101` | ⚠️ outdated |
-| Debian 14 | `1.14.101` | ⚠️ outdated |
-| Debian 13 | `1.14.89` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.14.94` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.14.68` | ⚠️ outdated |
-| Arch | `1.14.102` | ✅ latest |
-| Fedora rawhide | `1.14.94` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.14.102` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 4 | 0 | 0 | 2 |
+| last60d | 2026-09-26 | 0 | 1 | 4 | 0 | 0 | 24 |
+| 90d | 2026-08-27 | 0 | 3 | 4 | 0 | 0 | 35 |
+| last180d | 2026-05-29 | 0 | 6 | 4 | 1 | 3 | 78 |
+| 360d | 2025-11-30 | 0 | 10 | 6 | 6 | 5 | 148 |
+| last720d | 2024-12-05 | 0 | 31 | 9 | 21 | 16 | 378 |
 
 ## 改进这些数据
 
@@ -73,4 +58,4 @@ zypper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:10:35Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:47:29Z._
