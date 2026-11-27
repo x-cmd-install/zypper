@@ -42,12 +42,12 @@ Total: **29,282** lines of code across **232** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 1 | 4 | 0 | 0 | 4 |
-| last60d | 2026-09-27 | 0 | 2 | 4 | 0 | 0 | 26 |
-| 90d | 2026-08-28 | 0 | 4 | 4 | 0 | 0 | 37 |
-| last180d | 2026-05-30 | 0 | 7 | 4 | 1 | 3 | 80 |
-| 360d | 2025-12-01 | 0 | 11 | 6 | 6 | 5 | 150 |
-| last720d | 2024-12-06 | 0 | 32 | 9 | 21 | 16 | 380 |
+| 30d | 2026-10-28 | 0 | 1 | 4 | 0 | 0 | 4 |
+| last60d | 2026-09-28 | 0 | 2 | 4 | 0 | 0 | 26 |
+| 90d | 2026-08-29 | 0 | 4 | 4 | 0 | 0 | 37 |
+| last180d | 2026-05-31 | 0 | 7 | 4 | 1 | 3 | 80 |
+| 360d | 2025-12-02 | 0 | 11 | 6 | 6 | 5 | 150 |
+| last720d | 2024-12-07 | 0 | 32 | 9 | 21 | 16 | 380 |
 
 ## Improve this data
 
@@ -58,4 +58,4 @@ Install metadata for zypper lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:26:37Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:51:44Z._
